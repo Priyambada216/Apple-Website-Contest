@@ -1,0 +1,32 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.nav-top{
+    background: #000000CC;
+    padding: 10px 10px 0px 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-top ul{
+    padding: 0% 20%;
+}
+.nav-top ul li{
+    padding-left: 15px;
+    color: white;
+    font-size: 12px;
+  }
+.nav-top ul li a{
+  color: white;
+  padding: 15px 0px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    
+
+}
