@@ -1,7 +1,10 @@
+
+ 
 *{
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .nav-top{
     background: #000000CC;
@@ -11,22 +14,123 @@ box-sizing: border-box;
     align-items: center;
 }
 .nav-top ul{
-    padding: 0% 20%;
+    padding: 0% 15%;
 }
 .nav-top ul li{
     padding-left: 15px;
     color: white;
-    font-size: 12px;
+    font-size: 1vw;
   }
 .nav-top ul li a{
   color: white;
-  padding: 15px 0px;
 }
 nav ul{
     list-style: none;
 }
 nav ul li a{
     text-decoration: none;
-    
-
 }
+.nav-bottom{
+    padding: 0% 15%;
+    background: #FBFBFD;
+}
+.nav-bottom ul {
+   padding-top: 10px;
+}
+.nav-bottom ul div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.nav-bottom ul div li p {
+    color:#1D1D1F;
+    font-size: 10px;
+}
+.conntent ul {
+    list-style: none;
+    padding: 0% 44%;
+}
+.conntent ul li button{
+    font-size: 17px;
+    Width: 61.2px;
+    height: 36px;
+    border-radius: 50px;
+}
+.conntent ul li p{
+    padding-top: 10px;
+}
+h1{
+    width: fit-content;
+    letter-spacing: -0.144px;
+    letter-spacing: -0.144px;
+   padding: 10px 3vw 10px 38vw;
+   background: linear-gradient(90deg, #2CA2B4 45%, #5598DE , #7F87FF, #F65AAD, #EC3D43);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.div-IPhone-14-Pro{
+   background-color: rgba(0, 0, 0, 1);
+   margin-top: 10px;
+}
+.div-IPhone-14-Pro h2 {
+    width: fit-content;
+    letter-spacing: -0.144px;
+    letter-spacing: -0.144px;
+   padding: 10px 3vw 10px 38vw;
+   background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.div-IPhone-14-Pro ul {
+    list-style: none;
+    padding: 0% 44%;
+}
+.div-IPhone-14-Pro button{
+    font-size: 17px;
+    Width: 61.2px;
+    height: 36px;
+    border-radius: 50px;
+}
+.div-IPhone-14-Pro ul li p{
+    padding-top: 10px;
+}
+.div-IPhone-14-Pro img {
+    padding-top: 10px;
+}
+.iPhone-SE {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(251, 251, 253, 1);
+}
+.iPhone-SE div {
+    padding-left: 10vw !important;
+}
+.iPhone-SE img:last-child {
+    padding-right: 15vw !important;
+}
+.iPhone-SE h2 {
+    width: fit-content;
+    letter-spacing: -0.144px;
+    letter-spacing: -0.144px;
+   padding: 10px 0px 10px 10px;
+   background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.iPhone-SE button{
+    font-size: 17px;
+    Width: 61.2px;
+    height: 36px;
+    border-radius: 50px;
+}
+.iPhone-SE ul {
+    list-style: none;
+    padding: 0% 30%;
+}
+.iPhone-SE ul li p{
+    padding-top: 10px;
+}
+
+
