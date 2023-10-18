@@ -1,136 +1,190 @@
-
- 
-*{
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.nav-top{
-    background: #000000CC;
-    padding: 10px 10px 0px 0px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nav-top {
+  width: 100vw;
+  background: #000000cc;
+  padding: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.nav-top ul{
-    padding: 0% 15%;
+.nav-top ul {
+  padding: 0% 15%;
 }
-.nav-top ul li{
-    padding-left: 15px;
-    color: white;
-    font-size: 1vw;
-  }
-.nav-top ul li a{
+.nav-top ul li {
+  padding-left: 15px;
+  color: white;
+  font-size: 1vw;
+}
+.nav-top ul li a {
   color: white;
 }
-nav ul{
-    list-style: none;
+nav ul {
+  list-style: none;
 }
-nav ul li a{
-    text-decoration: none;
+nav ul li a {
+  text-decoration: none;
 }
-.nav-bottom{
-    padding: 0% 15%;
-    background: #FBFBFD;
+.nav-bottom {
+  width: 100vw;
+  padding: 0% 15%;
+  background: #fbfbfd;
 }
 .nav-bottom ul {
-   padding-top: 10px;
+  padding-top: 10px;
 }
 .nav-bottom ul div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .nav-bottom ul div li p {
-    color:#1D1D1F;
-    font-size: 10px;
+  color: #1d1d1f;
+  font-size: 10px;
+}
+.Hero {
+  width: 100vw;
 }
 .conntent ul {
-    list-style: none;
-    padding: 0% 44%;
+  list-style: none;
+  padding: 0% 44%;
 }
-.conntent ul li button{
-    font-size: 17px;
-    Width: 61.2px;
-    height: 36px;
-    border-radius: 50px;
+.conntent ul li p {
+  padding-top: 10px;
 }
-.conntent ul li p{
-    padding-top: 10px;
+h1 {
+  width: fit-content;
+  letter-spacing: -0.144px;
+  letter-spacing: -0.144px;
+  padding: 10px 3vw 10px 38vw;
+  background: linear-gradient(
+    90deg,
+    #2ca2b4 45%,
+    #5598de,
+    #7f87ff,
+    #f65aad,
+    #ec3d43
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-h1{
-    width: fit-content;
-    letter-spacing: -0.144px;
-    letter-spacing: -0.144px;
-   padding: 10px 3vw 10px 38vw;
-   background: linear-gradient(90deg, #2CA2B4 45%, #5598DE , #7F87FF, #F65AAD, #EC3D43);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
-.div-IPhone-14-Pro{
-   background-color: rgba(0, 0, 0, 1);
-   margin-top: 10px;
+.div-IPhone-14-Pro {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 1);
+  margin-top: 10px;
 }
 .div-IPhone-14-Pro h2 {
-    width: fit-content;
-    letter-spacing: -0.144px;
-    letter-spacing: -0.144px;
-   padding: 10px 3vw 10px 38vw;
-   background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+  width: fit-content;
+  letter-spacing: -0.144px;
+  letter-spacing: -0.144px;
+  padding: 10px 3vw 10px 38vw;
+  background: linear-gradient(180deg, #ffb6ff 0%, #b344ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .div-IPhone-14-Pro ul {
-    list-style: none;
-    padding: 0% 44%;
+  list-style: none;
+  padding: 0% 44%;
 }
-.div-IPhone-14-Pro button{
-    font-size: 17px;
-    Width: 61.2px;
-    height: 36px;
-    border-radius: 50px;
-}
-.div-IPhone-14-Pro ul li p{
-    padding-top: 10px;
+.div-IPhone-14-Pro ul li p {
+  padding-top: 10px;
 }
 .div-IPhone-14-Pro img {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 .iPhone-SE {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background: rgba(251, 251, 253, 1);
+  width: 100vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgba(251, 251, 253, 1);
 }
 .iPhone-SE div {
-    padding-left: 10vw !important;
+  padding-left: 10vw !important;
 }
 .iPhone-SE img:last-child {
-    padding-right: 15vw !important;
+  padding-right: 15vw !important;
 }
 .iPhone-SE h2 {
-    width: fit-content;
-    letter-spacing: -0.144px;
-    letter-spacing: -0.144px;
-   padding: 10px 0px 10px 10px;
-   background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
-.iPhone-SE button{
-    font-size: 17px;
-    Width: 61.2px;
-    height: 36px;
-    border-radius: 50px;
+  width: fit-content;
+  letter-spacing: -0.144px;
+  letter-spacing: -0.144px;
+  padding: 10px 0px 10px 10px;
+  background: linear-gradient(
+    90deg,
+    #1e3791 0%,
+    #2948b1 40%,
+    #3153c6 55%,
+    #385fda 60%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .iPhone-SE ul {
-    list-style: none;
-    padding: 0% 30%;
+  list-style: none;
+  padding: 0% 30%;
 }
-.iPhone-SE ul li p{
-    padding-top: 10px;
+.iPhone-SE ul li p {
+  padding-top: 10px;
 }
-
-
+.divfour {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+}
+.image {
+  width: 1300px;
+  position: relative;
+}
+.image img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.divfour-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 270px;
+  left: 150px;
+  color: white;
+}
+.divfour-content h2 {
+  padding-bottom: 10px;
+  font-size: 48px;
+}
+.divfour-content p {
+  font-size: 28px;
+}
+.divfour-content button {
+  width: 142.23px;
+  height: 36px;
+  border-radius: 50px;
+}
+.types {
+  width: 100vw;
+  margin-top: 150px;
+}
+.types table {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bty {
+  font-size: 17px;
+  width: 61.2px;
+  height: 36px;
+  border-radius: 50px;
+  color: white;
+  background: rgba(0, 113, 227, 1);
+  border: none;
+}
