@@ -280,3 +280,44 @@ font-size: 90px;
 .divsixth-cont-two p{
   padding-top: 40px;
 }
+.divseven{
+  background-color: rgba(251, 251, 253, 1);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.box{
+  background: white;
+  width: 570px;
+height: 550px;
+padding: auto;
+margin-top: 20px;
+text-align: center;
+}
+.image-1{
+  width: 305px;
+  height: 336px;
+}
+.image-2{
+  width: 570px;
+}
+.box-content{
+  padding-top: 50px;
+}
+.box-content p{
+  padding-top: 20px;
+}
+.box img{
+  padding-top: 30px;
+}
+.diveight{
+  background-color: rgba(251, 251, 253, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diveight img{
+  width: 1255px;
+  padding-top: 100px;
+}
