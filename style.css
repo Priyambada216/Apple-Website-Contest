@@ -188,3 +188,17 @@ h1 {
   background: rgba(0, 113, 227, 1);
   border: none;
 }
+.iphone-type td{
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+.iphone-type td p{
+  padding-top: 10px;
+}
+.new{
+  font-size: 12px;
+  color: rgba(191, 72, 0, 1);
+}
+.extra{
+  color: rgba(110, 110, 115, 1);
+}
