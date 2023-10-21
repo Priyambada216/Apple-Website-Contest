@@ -281,7 +281,7 @@ font-size: 90px;
   padding-top: 40px;
 }
 .divseven{
-  background-color: rgba(251, 251, 253, 1);
+  background: rgba(251, 251, 253, 1);
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -289,17 +289,13 @@ font-size: 90px;
 .box{
   background: white;
   width: 570px;
-height: 550px;
+height: 680px;
 padding: auto;
 margin-top: 20px;
 text-align: center;
 }
-.image-1{
-  width: 305px;
-  height: 336px;
-}
 .image-2{
-  width: 570px;
+  width: 565px;
 }
 .box-content{
   padding-top: 50px;
@@ -311,7 +307,7 @@ text-align: center;
   padding-top: 30px;
 }
 .diveight{
-  background-color: rgba(251, 251, 253, 1);
+  background: rgba(251, 251, 253, 1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -319,5 +315,156 @@ text-align: center;
 
 .diveight img{
   width: 1255px;
-  padding-top: 100px;
+  padding-top: 20px;
+}
+.divnine{
+  background: rgba(251, 251, 253, 1);
+  width: 100%;
+}
+.divnine h2{
+  padding-top: 50px;
+  margin-bottom: 40px;
+  font-size: 56px;
+}
+.MagSafe {
+  background: white;
+  width: 1280px;
+  height: 460px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.MagSafe img{
+  padding-top: 80px;
+  height: 463px;
+}
+.madsafediv{
+  text-align: center;
+   padding-top: 150px; 
+}
+.madsafediv h3{
+  font-size: 48px;
+}
+.madsafediv p{
+  padding: auto;
+  font-size: 21px;
+}
+.divtan{
+  background: rgba(251, 251, 253, 1);
+  width: 100%;
+  padding-top: 20px;
+}
+.AirTag{
+  background: white;
+  width: 1280px;
+  height: 430px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.AirTag img{
+  width: 650px;
+}
+.AirTagdiv{
+  padding-right: 100px;
+}
+.AirTagdiv p{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.divel{
+  padding-top: 20px;
+  background: rgba(251, 251, 253, 1);
+  width: 100%;
+}
+.divel-content{
+  background: white;
+  width: 1280px;
+  height: 750px;
+  margin: auto;
+}
+.divel-content h3{
+  padding-top: 50px;
+  font-size: 48px;
+}
+.divel-content img{
+   width: 1200px;
+   padding-left: 55px;
+}
+.divtwel{
+  background: rgba(251, 251, 253, 1);
+  width: 100%;
+  padding-top: 50px;
+}
+.divth{
+  background: rgba(251, 251, 253, 1);
+  width: 100%;
+}
+.divth img{
+  width: 1250px;
+  height: 600px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  display: block;
+  margin: auto;
+}
+.sq{
+  width: 660px;
+  height: 510px;
+  background: white;
+  margin: auto;
+}
+.sq img{
+  width: 660px;
+  height: 360px;
+}
+.divfor{
+  background: rgba(251, 251, 253, 1);
+  width: 100%;
+}
+.Appleone{
+  background: white;
+  width: 1280px;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card2{
+  padding-top: 20px;
+}
+.card3{
+  background: rgba(9, 10, 14, 1);
+ width: 620px;
+ height: 630.42px;
+}
+.card3img{
+  width: 620px;
+}
+.card4{
+  background: white;
+  width: 620px;
+ height: 630.42px;
+}
+.card5 img{
+  width: 620px;
+  height: 630.42px;
+  object-fit: cover;
+}
+.card6{
+  background: rgba(249, 249, 249, 1);
+  width: 620px;
+  height: 630.42px;
+}
+.divlast{
+  padding-top: 20px;
+}
+.divlastbox{
+  background: rgba(249, 249, 249, 1);
+  width: 1280px;
+ height: 476px;
+ margin: auto;
 }
