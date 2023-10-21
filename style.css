@@ -488,12 +488,20 @@ text-align: center;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
+  margin: auto;
 }
 .last table th{
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  
 }
 .last table td{
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 14px;
+}
+.l{
+  padding-top: 20px;
+  margin: auto;
+  width: 1280px;
 }
