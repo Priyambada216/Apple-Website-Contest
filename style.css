@@ -465,6 +465,35 @@ text-align: center;
 .divlastbox{
   background: rgba(249, 249, 249, 1);
   width: 1280px;
- height: 476px;
+ height: 400px;
  margin: auto;
+}
+.footerbox{
+  background: rgba(245, 245, 247, 1);
+}
+.tandc{
+  padding: 20px;
+}
+.tandc pre{
+  font-size: 12px;
+  padding-top: 20px;
+  text-align: justify;
+}
+.icon{
+  padding-left: 150px;
+  width: 980px;
+}
+.last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.last table th{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.last table td{
+  padding-left: 60px;
+  padding-right: 60px;
 }
