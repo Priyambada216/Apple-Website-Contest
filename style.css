@@ -6,20 +6,28 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .nav-top {
-  width: 100vw;
   background: #000000cc;
-  padding: 10px 10px 0px 0px;
+  padding: 5px 0px 0px 5px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.nav-top ul {
-  padding: 0% 15%;
+#toggler, label{
+   display: none !important;
+   padding-left: 10px;
+}
+label i{
+  color: white;
+}
+.icon-1{
+  padding-bottom: 10px;
 }
 .nav-top ul li {
-  padding-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   color: white;
-  font-size: 1vw;
+  font-size: 12px;
 }
 .nav-top ul li a {
   color: white;
@@ -493,15 +501,37 @@ text-align: center;
 .last table th{
   padding-left: 40px;
   padding-right: 40px;
-  
+  font-size: 1vw;
 }
 .last table td{
   padding-left: 40px;
   padding-right: 40px;
-  font-size: 14px;
+  font-size: 1vw;
 }
 .l{
   padding-top: 20px;
   margin: auto;
   width: 1280px;
+  font-size: 1vw;
+}
+@media screen and (max-width: 1024px){
+  .menu{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+  }
+  label{
+    display: inline-flex !important;
+  }
+  #toggler:checked~.menu{
+    max-height: 100%;
+  }
+ .menu ul li{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .nav-bottom{
+    display: none;
+  }
 }
