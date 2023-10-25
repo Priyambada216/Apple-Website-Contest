@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 #toggler, label{
    display: none !important;
@@ -39,7 +40,7 @@ nav ul li a {
   text-decoration: none;
 }
 .nav-bottom {
-  width: 100vw;
+  width: 100%;
   padding: 0% 15%;
   background: #fbfbfd;
 }
@@ -57,20 +58,28 @@ nav ul li a {
   font-size: 10px;
 }
 .Hero {
-  width: 100vw;
+  width: 100%;
+}
+.heroimg img{
+  width: 80%;
+}
+.conntent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .conntent ul {
   list-style: none;
-  padding: 0% 44%;
+  padding: 0% 40%;
+  font-size: 1vw;
 }
-.conntent ul li p {
+.conntent ul li a p{
   padding-top: 10px;
+  padding-left: 10px;
 }
-h1 {
-  width: fit-content;
-  letter-spacing: -0.144px;
-  letter-spacing: -0.144px;
-  padding: 10px 3vw 10px 38vw;
+.firstH{
+  width: 30%;
   background: linear-gradient(
     90deg,
     #2ca2b4 45%,
@@ -81,48 +90,59 @@ h1 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 .div-IPhone-14-Pro {
-  width: 100vw;
+  width: 100%;
   background-color: rgba(0, 0, 0, 1);
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.div-IPhone-14-Pro h2 {
-  width: fit-content;
-  letter-spacing: -0.144px;
-  letter-spacing: -0.144px;
-  padding: 10px 3vw 10px 38vw;
+.seconddiv-14-pro{
+  width: 30%;
   background: linear-gradient(180deg, #ffb6ff 0%, #b344ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.div-IPhone-14-Pro ul {
+ .div-IPhone-14-Pro ul {
   list-style: none;
   padding: 0% 44%;
+  font-size: 1vw;
 }
-.div-IPhone-14-Pro ul li p {
+.div-IPhone-14-Pro ul li a p{
   padding-top: 10px;
-}
-.div-IPhone-14-Pro img {
+  padding-left: 100px;
+} 
+.iphone-14-proimg img{
   padding-top: 10px;
+  width: 80%;
 }
 .iPhone-SE {
-  width: 100vw;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
   background: rgba(251, 251, 253, 1);
 }
 .iPhone-SE div {
-  padding-left: 10vw !important;
+  padding-left: 5vw !important;
 }
 .iPhone-SE img:last-child {
-  padding-right: 15vw !important;
+  padding-right: 12vw !important;
+  width: 50%;
 }
-.iPhone-SE h2 {
-  width: fit-content;
+.iPhone-SE-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.iPhone-SE-h2{
+  width: 100%;
   letter-spacing: -0.144px;
-  letter-spacing: -0.144px;
-  padding: 10px 0px 10px 10px;
   background: linear-gradient(
     90deg,
     #1e3791 0%,
@@ -133,31 +153,34 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.iPhone-SE ul {
+.iPhone-SE-content ul {
   list-style: none;
   padding: 0% 30%;
 }
-.iPhone-SE ul li p {
+.iPhone-SE-content ul li a p{
   padding-top: 10px;
-}
+  padding-left: 10px;
+  font-size: 1vw;
+} 
 .divfour {
   width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 1);
 }
 .image {
-  width: 1300px;
+  width: 95%;
   position: relative;
+  z-index: 99;
 }
-.image img {
+ .image img {
   width: 100%;
-  display: block;
   margin: auto;
-}
+ }
 .divfour-content {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -167,44 +190,55 @@ h1 {
 }
 .divfour-content h2 {
   padding-bottom: 10px;
-  font-size: 48px;
+  font-size: 4vw;
 }
 .divfour-content p {
-  font-size: 28px;
+  font-size: 2vw;
 }
 .divfour-content button {
-  width: 142.23px;
-  height: 36px;
+  width: 8vw;
+  height: 5%;
   border-radius: 50px;
+  font-size: 1vw;
 }
 .types {
-  width: 100vw;
-  margin-top: 150px;
+  width: 100%;
+  margin-top: 50px;
 }
 .types table {
   margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.icon-2{
+  width: 18%;
+}
 .bty {
-  font-size: 17px;
-  width: 61.2px;
-  height: 36px;
-  border-radius: 50px;
+  font-size: 1vw;
+  width: 4vw;
+  height: 100%;
+ border-radius: 50px;
   color: white;
   background: rgba(0, 113, 227, 1);
   border: none;
+  padding-bottom: 2px;
 }
 .iphone-type td{
   padding-left: 20px;
   padding-right: 20px; 
 }
 .iphone-type td p{
-  padding-top: 10px;
+  padding-top: 1vw;
+  font-size: 1vw;
+}
+.iphone-type td h4{
+  font-size: 2vw;
 }
 .new{
-  font-size: 12px;
+  font-size: 1vw;
   color: rgba(191, 72, 0, 1);
 }
 .extra{
@@ -220,14 +254,13 @@ h1 {
   text-decoration: none;
 }
 .content-bottom h3{
-  font-size: 21px;
+  font-size: 1.5vw;
 }
 .divfivth{
   display: flex;
   justify-content: center;
   align-items: center;
  width: 100%;
- height: 100vh;
  background: rgba(251, 251, 253, 1);
 }
 .divimg{
@@ -243,15 +276,17 @@ height: 587px;
 }
 .big-img{
   padding-left: 50px;
+  padding-right: 50px;
+  width: 50%;
 }
 .divfivth-content{
   padding-left: 50px;
 }
 .divfivth-content h2{
-font-size: 90px;
+font-size: 6vw;
 }
 .divfivth-content p{
-  font-size: 21px;
+  font-size: 2vw;
   color: rgba(41, 151, 255, 1);
 }
 .divsixth{
@@ -259,7 +294,7 @@ font-size: 90px;
   text-align: center;
 }
 .divsixth h2{
-  font-size: 50px;
+  font-size: 3.5vw;
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -514,9 +549,31 @@ text-align: center;
   width: 1280px;
   font-size: 1vw;
 }
-@media screen and (max-width: 1024px){
+.menu.active{
+height: 450px;
+}
+.menu.active ul{
+  opacity: 1;
+}
+@media screen and (max-width: 1320px){
+  header{
+    padding: 0 50px;
+  }
+}
+  @media screen and (max-width: 1100px){
+    header{
+      padding: 0 30px;
+    }
+  }
+  @media screen and (max-width: 900px){
   .menu{
-    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: #000000cc;
+    transition: 0.2s;
     height: 0;
     overflow: hidden;
   }
@@ -526,12 +583,26 @@ text-align: center;
   #toggler:checked~.menu{
     max-height: 100%;
   }
- .menu ul li{
-    flex-direction: column;
+ .menu ul{
+  display: block;
+  width: fit-content;
+  margin: 80px auto 0 auto;
+  text-align: center;
+  transition: 0.5s;
+  opacity: 0;
+
+    /* flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 20px; */
   }
-  .nav-bottom{
+  .menu ul li a{
+    margin-bottom: 12px;
+  }
+ .nav-bottom{
     display: none;
+  }
+  .card2{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
