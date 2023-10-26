@@ -271,13 +271,13 @@ nav ul li a {
   margin-top: 30px;
   margin-bottom: 30px;
   margin: auto;
-width: 1300px;
-height: 587px;
+  width: 95%;
+  height: 600px;
 }
 .big-img{
   padding-left: 50px;
   padding-right: 50px;
-  width: 50%;
+  width: 40%;
 }
 .divfivth-content{
   padding-left: 50px;
@@ -291,7 +291,12 @@ font-size: 6vw;
 }
 .divsixth{
   background: rgba(251, 251, 253, 1);
+  width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .divsixth h2{
   font-size: 3.5vw;
@@ -300,54 +305,79 @@ font-size: 6vw;
 }
 .divsixth-content{
   background: white;
-  width: 1250px;
-  height: 600px;
+  width: 95%;
   margin: auto;
 }
+.divsixth-cont p{
+font-size: 2vw;
+}
+.divsixth-cont h3{
+  font-size: 3vw;
+}
+.lear-more{
+  font-size: 1vw;
+}
 .divsixth-content table{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .divsixth-content table td{
   padding-left: 30px;
   padding-right: 30px;
 }
+.divsixth-content table td p{
+  font-size: 1vw;
+}
+.divsixth-content table td img{
+  width: 80%;
+}
 .divsixth-cont{
-  padding-top: 100px;
+  padding-top: 10%;
 }
 .divsixth-content button{
-  width: 169.8px;
-  height: 56px;
+  width: 12vw;
+  height: 100%;
   border-radius: 50px;
+  font-size: 1.5vw;
 }
 .divsixth-cont-two p{
-  padding-top: 40px;
-}
+  padding-top: 1%;
+  font-size: 1vw;
+} 
 .divseven{
   background: rgba(251, 251, 253, 1);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
 }
 .box{
   background: white;
-  width: 570px;
-height: 680px;
+  width: 46%;
 padding: auto;
 margin-top: 20px;
 text-align: center;
 }
+.image-1{
+  width: 50%;
+}
 .image-2{
-  width: 565px;
+  width: 100%;
 }
 .box-content{
-  padding-top: 50px;
+  padding-top: 10%;
 }
 .box-content p{
-  padding-top: 20px;
+  padding-top: 2%;
+  font-size: 1vw;
+}
+.box-content h3{
+  font-size: 2vw;
+}
+.box-content a{
+  font-size: 1vw;
 }
 .box img{
-  padding-top: 30px;
+  padding-top: 5%;
 }
 .diveight{
   background: rgba(251, 251, 253, 1);
@@ -357,7 +387,7 @@ text-align: center;
 }
 
 .diveight img{
-  width: 1255px;
+  width: 95%;
   padding-top: 20px;
 }
 .divnine{
@@ -367,31 +397,30 @@ text-align: center;
 .divnine h2{
   padding-top: 50px;
   margin-bottom: 40px;
-  font-size: 56px;
+  font-size: 4vw;
 }
 .MagSafe {
   background: white;
-  width: 1280px;
-  height: 460px;
+  width: 95%;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .MagSafe img{
-  padding-top: 80px;
-  height: 463px;
+  padding-top: 10%;
+  width: 60%;
 }
 .madsafediv{
   text-align: center;
-   padding-top: 150px; 
+   padding-top: 10%; 
 }
 .madsafediv h3{
-  font-size: 48px;
+  font-size: 3vw;
 }
 .madsafediv p{
   padding: auto;
-  font-size: 21px;
+  font-size: 1.5vw;
 }
 .divtan{
   background: rgba(251, 251, 253, 1);
@@ -400,7 +429,7 @@ text-align: center;
 }
 .AirTag{
   background: white;
-  width: 1280px;
+  width: 95%;
   height: 430px;
   margin: auto;
   display: flex;
@@ -408,14 +437,18 @@ text-align: center;
   align-items: center;
 }
 .AirTag img{
-  width: 650px;
+  width: 52%;
 }
 .AirTagdiv{
   padding-right: 100px;
 }
+.AirTagdiv h3{
+  font-size: 2vw;
+}
 .AirTagdiv p{
-  padding-top: 10px;
+  padding-top: 2%;
   padding-left: 10px;
+  font-size: 1vw;
 }
 .divel{
   padding-top: 20px;
@@ -424,92 +457,112 @@ text-align: center;
 }
 .divel-content{
   background: white;
-  width: 1280px;
-  height: 750px;
+  width: 95%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 .divel-content h3{
-  padding-top: 50px;
-  font-size: 48px;
+  padding-top: 4%;
+  font-size: 4vw;
+}
+.divel-content p{
+  font-size: 1vw;
 }
 .divel-content img{
-   width: 1200px;
-   padding-left: 55px;
+   width: 100%;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 .divtwel{
   background: rgba(251, 251, 253, 1);
   width: 100%;
-  padding-top: 50px;
+  padding-top: 20px;
 }
+
 .divth{
   background: rgba(251, 251, 253, 1);
   width: 100%;
 }
 .divth img{
-  width: 1250px;
-  height: 600px;
+  width: 95%;
   padding-top: 50px;
   padding-bottom: 20px;
   display: block;
   margin: auto;
 }
 .sq{
-  width: 660px;
-  height: 510px;
+  width: 49%;
   background: white;
   margin: auto;
 }
 .sq img{
-  width: 660px;
-  height: 360px;
+  width: 100%;
 }
 .divfor{
   background: rgba(251, 251, 253, 1);
   width: 100%;
 }
+.divfor h2{
+  font-size: 3vw;
+}
 .Appleone{
   background: white;
-  width: 1280px;
+  width: 95%;
   height: 700px;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
+.Appleone img{
+  padding-left: 20px;
+  width: 50%;
+}
 .card2{
   padding-top: 20px;
 }
 .card3{
   background: rgba(9, 10, 14, 1);
- width: 620px;
+ width: 46%;
  height: 630.42px;
 }
 .card3img{
-  width: 620px;
+  width: 100%;
 }
 .card4{
   background: white;
-  width: 620px;
+  width: 46%;
  height: 630.42px;
 }
 .card5 img{
-  width: 620px;
-  height: 630.42px;
+  width: 92%;
   object-fit: cover;
 }
 .card6{
   background: rgba(249, 249, 249, 1);
-  width: 620px;
+  width: 46%;
   height: 630.42px;
+}
+.card6 img{
+  width: 100%;
+}
+.card6 .card-6-icon{
+  width: 30%;
 }
 .divlast{
   padding-top: 20px;
 }
 .divlastbox{
   background: rgba(249, 249, 249, 1);
-  width: 1280px;
+  width: 95%;
  height: 400px;
  margin: auto;
+}
+.divlastbox img{
+  width: 60%;
 }
 .footerbox{
   background: rgba(245, 245, 247, 1);
@@ -556,14 +609,10 @@ height: 450px;
   opacity: 1;
 }
 @media screen and (max-width: 1320px){
-  header{
-    padding: 0 50px;
-  }
+  
 }
   @media screen and (max-width: 1100px){
-    header{
-      padding: 0 30px;
-    }
+
   }
   @media screen and (max-width: 900px){
   .menu{
@@ -590,10 +639,6 @@ height: 450px;
   text-align: center;
   transition: 0.5s;
   opacity: 0;
-
-    /* flex-direction: column;
-    align-items: center;
-    padding: 20px; */
   }
   .menu ul li a{
     margin-bottom: 12px;
@@ -602,7 +647,27 @@ height: 450px;
     display: none;
   }
   .card2{
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+ 
+  }
+  .card-common{
+    height: 30%;
+  }
+  .divseven{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .divimg{
+    height: 30vh;
+  }
+  .AirTag{
+    height: 18vh;
+  }
+  .divtwel{
+    flex-direction: column;
+  }
+  .Appleone{
+    height: 50vh;
   }
 }
